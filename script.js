@@ -28,10 +28,7 @@ function main()
 	var all_times = [] ; 
 	var bool_time1 = true;
 	var bool_time2 = true;
-	if (max_days_to_show > luz.length - index_current_day)
-	{
-		max_days_to_show = luz.length - index_current_day 
-	}
+
 	content = "<tr class=\"table_headers\" style=\"height:5%\" ><th></th>"; 
 	// generate table headers:
 	for (i = index_current_day ; i < max_days_to_show + index_current_day ; i++)
