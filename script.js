@@ -127,7 +127,7 @@ function main()
 	}
 	document.getElementById("weekly_luz").innerHTML = content;
 	document.getElementById("day_sen").innerHTML = "המשפט היומי: " +luz[index_current_day][3];
-	setTimeout("window.open('main.html', '_self');", 60000);
+	//setTimeout("window.open('main.html', '_self');", 60000);
 
 }
 	
