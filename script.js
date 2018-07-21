@@ -28,10 +28,6 @@ function main()
 	var all_times = [] ; 
 	var bool_time1 = true;
 	var bool_time2 = true;
-	while (date != luz[index_current_day][0])
-	{
-		index_current_day = index_current_day + 1
-	}
 	if (max_days_to_show > luz.length - index_current_day)
 	{
 		max_days_to_show = luz.length - index_current_day 
